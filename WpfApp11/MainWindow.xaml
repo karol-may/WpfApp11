@@ -4,10 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp11"
-        mc:Ignorable="d" Height="108" Width="274">
+        mc:Ignorable="d" Height="229" Width="492">
     <Grid>
-        <Button x:Name="SendButton" Content="Wyślij" HorizontalAlignment="Left" Margin="210,39,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="19,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" Height="20"/>
-        <Button x:Name="SaveButton" Content="Zapisz" HorizontalAlignment="Left" Margin="156,39,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="ImionaListBox" Margin="0,0,247,106"/>
+        <Button x:Name="SendButton" Content="Wyślij" HorizontalAlignment="Left" Margin="421,171,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="19,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" Height="20"/>
+        <Button x:Name="SaveButton" Content="Dodaj" HorizontalAlignment="Left" Margin="156,122,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="DeleteButton" Content="Usuń" HorizontalAlignment="Left" Margin="205,122,0,0" VerticalAlignment="Top"/>
+
+
     </Grid>
 </Window>
